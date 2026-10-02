@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Profile Maya</title>
+    <!-- css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/mycss.css" />
+  </head>
+  <body
+    data-bs-spy="scroll"
+    data-bs-target="#navbarNav"
+    data-bs-root-margin="-40% 0px -55% 0px"
+    tabindex="0"
+  >
+    <!-- navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-pink fixed-top shadow-sm"
+      id="mainNav"
+    >
+      <div class="container-fluid px-3 px-lg-5">
+        <a class="navbar-brand" href="#home">MAYA PUSPA WARDHANI</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#hobbies">Hobbies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- jumbotron -->
+    <div class="jumbotron-fluid hero py-5" id="home">
+      <div class="container text-center py-5 hero-content">
+        <h1 class="display-4 hero-title mb-4">Hello, Selamat Datang</h1>
+        <div class="photo-frame">
+          <img
+            src="img/profile.jpeg"
+            class="rounded-circle img-thumbnail profile-img"
+            alt="Profile Picture"
+          />
+          <span class="sticker s1" aria-hidden="true">🍓</span>
+          <span class="sticker s2" aria-hidden="true">✨</span>
+          <span class="sticker s3" aria-hidden="true">🍵</span>
+          <span class="sticker s4" aria-hidden="true">🏐</span>
+        </div>
+        <p class="lead mb-4">
+          Web Developer | Web Designer | Frontend Developer
+        </p>
+        <div class="d-flex flex-wrap justify-content-center gap-3 mb-4">
+          <a href="#hobbies" class="btn btn-matcha px-4">Lihat Hobi</a>
+          <a href="#contact" class="btn btn-outline-light btn-outline-pink px-4"
+            >Hubungi Saya</a
+          >
+        </div>
+        <div class="d-flex justify-content-center gap-3 mb-2">
+          <a
+            href="https://www.instagram.com/mayaapuspa__?stkn=cDN4NmczZ256NGhp"
+            target="_blank"
+            rel="noopener"
+            class="social-link"
+            aria-label="Instagram"
+          >
+            <i class="bi bi-instagram"></i
+          ></a>
+          <a
+            href="https://github.com/mayapuspa999-hash"
+            target="_blank"
+            rel="noopener"
+            class="social-link"
+            aria-label="GitHub"
+          >
+            <i class="bi bi-github"></i
+          ></a>
+        </div>
+      </div>
+      <svg
+        class="hero-wave"
+        viewBox="0 0 1440 80"
+        preserveAspectRatio="none"
+        aria-hidden="true"
+      >
+        <path
+          d="M0,40 C240,80 480,0 720,40 C960,80 1200,0 1440,40 L1440,80 L0,80 Z"
+          fill="#FAF9F6"
+        />
+      </svg>
+    </div>
+
+    <!-- about -->
+    <section id="about" class="about-section py-5">
+      <div class="container py-4">
+        <h2 class="text-center section-title mb-5">About Me</h2>
+        <div class="row justify-content-center g-4">
+          <div class="col-md-5" data-aos="fade-right">
+            <p>
+              Halo! Saya Maya, seorang pengembang dan desainer web yang berfokus
+              pada pembuatan antarmuka digital yang tidak hanya fungsional,
+              tetapi juga estetis dan ramah pengguna. Saya percaya bahwa
+              kombinasi antara kode yang rapi dan visual yang manis dapat
+              menciptakan pengalaman web yang menyenangkan.
+            </p>
+          </div>
+          <div class="col-md-5" data-aos="fade-left">
+            <p>
+              Di luar aktivitas coding dan desain web, saya menyukai gaya hidup
+              aktif dan eksplorasi hal-hal baru. Menjaga keseimbangan antara
+              fokus dalam pekerjaan kreatif dan kegiatan fisik membantu saya
+              tetap segar, energik, serta selalu menghadirkan ide-ide segar
+              dalam setiap proyek.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- hobbies -->
+    <section id="hobbies" class="portfolio-section py-5">
+      <div class="container py-4">
+        <h2 class="text-center section-title mb-5">
+          My Hobbies &amp; Interests
+        </h2>
+        <div class="row g-4">
+          <div class="col-md-4" data-aos="flip-left">
+            <div class="card portfolio-card h-100">
+              <img
+                src="img/swimming.jpeg"
+                class="card-img-top"
+                alt="Berenang"
+              />
+              <div class="card-body">
+                <span class="badge badge-hobby mb-3">Active Lifestyle</span>
+                <h5 class="card-title">Berenang (Swimming)</h5>
+                <p class="card-text">
+                  Berenang adalah cara favorit saya untuk menyegarkan pikiran
+                  dan melatih ketahanan tubuh. Sensasi berada di dalam air
+                  memberi ketenangan sekaligus energi baru setelah berjam-jam
+                  menatap layar laptop.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-up">
+            <div class="card portfolio-card h-100">
+              <img src="img/volleyball.jpg" class="card-img-top" alt="Voli" />
+              <div class="card-body">
+                <span class="badge badge-hobby mb-3">Team Sport</span>
+                <h5 class="card-title">Voli (Volleyball)</h5>
+                <p class="card-text">
+                  Bermain voli mengajarkan saya arti penting kerja sama tim,
+                  komunikasi yang cepat, dan fokus pada tujuan bersama. Semangat
+                  sportif ini juga selalu saya terapkan dalam setiap proyek
+                  kolaborasi web development.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="flip-left">
+            <div class="card portfolio-card h-100">
+              <img src="img/food.jpg" class="card-img-top" alt="Kuliner" />
+              <div class="card-body">
+                <span class="badge badge-hobby mb-3"
+                  >Culinary &amp; Treats</span
+                >
+                <h5 class="card-title">Kuliner / Foodie</h5>
+                <p class="card-text">
+                  Berburu tempat kuliner estetik selalu berhasil memberikan
+                  inspirasi visual dan kebahagiaan tersendiri untuk saya.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contact" class="contact-section py-5">
+      <div class="container py-4">
+        <h2 class="text-center section-title mb-5">Contact Me</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-6" data-aos="zoom-in-up">
+            <form>
+              <div class="mb-3">
+                <label for="nama" class="form-label">Nama</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="nama"
+                  placeholder="Nama kamu"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="nama@email.com"
+                />
+              </div>
+              <div class="mb-4">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea
+                  class="form-control"
+                  id="pesan"
+                  rows="4"
+                  placeholder="Tulis pesan..."
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-matcha px-4">Kirim</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer text-center py-4">
+      <div class="container">
+        <div class="d-flex justify-content-center gap-3 mb-3">
+          <a
+            href="https://instagram.com/username"
+            target="_blank"
+            rel="noopener"
+            class="social-link"
+            aria-label="Instagram"
+            ><i class="bi bi-instagram"></i
+          ></a>
+          <a
+            href="https://github.com/username"
+            target="_blank"
+            rel="noopener"
+            class="social-link"
+            aria-label="GitHub"
+            ><i class="bi bi-github"></i
+          ></a>
+        </div>
+        <p class="mb-0">&copy; 2026 Web Profile Maya. Made with love.</p>
+      </div>
+    </footer>
+
+    <!-- back to top -->
+    <button
+      type="button"
+      id="toTop"
+      class="btn btn-matcha rounded-circle"
+      aria-label="Kembali ke atas"
+    >
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ duration: 900, once: true });
+
+      // Tutup menu mobile otomatis setelah link diklik
+      const menu = document.getElementById("navbarNav");
+      document.querySelectorAll("#navbarNav .nav-link").forEach((link) => {
+        link.addEventListener("click", () => {
+          if (menu.classList.contains("show")) {
+            bootstrap.Collapse.getOrCreateInstance(menu).hide();
+          }
+        });
+      });
+
+      // Navbar berubah saat halaman di-scroll
+      const nav = document.getElementById("mainNav");
+      const onScroll = () =>
+        nav.classList.toggle("scrolled", window.scrollY > 40);
+      window.addEventListener("scroll", onScroll);
+      onScroll();
+
+      // Tombol kembali ke atas
+      const toTop = document.getElementById("toTop");
+      window.addEventListener("scroll", () =>
+        toTop.classList.toggle("show", window.scrollY > 400),
+      );
+      toTop.addEventListener("click", () =>
+        window.scrollTo({ top: 0, behavior: "smooth" }),
+      );
+    </script>
+  </body>
+</html>
